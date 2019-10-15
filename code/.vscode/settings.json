@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "solgui_include.h": "c",
+        "stmflash.h": "c"
+    }
+}
