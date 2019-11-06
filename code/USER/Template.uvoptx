@@ -152,18 +152,18 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>305</LineNumber>
+          <LineNumber>37</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134228448</Address>
+          <Address>134237720</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>E:\鏂囦欢璧勬枡\github\LightMeter\Code\HARDWARE\max44009\max44009.c</Filename>
+          <Filename>E:\鏂囦欢璧勬枡\github\stm32f103_coreboard\code\USER\main.c</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\Template\../HARDWARE/max44009/max44009.c\305</Expression>
+          <Expression>\\Template\main.c\37</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>

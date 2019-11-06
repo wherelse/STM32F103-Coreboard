@@ -8,13 +8,13 @@ void MAX44009_Init(void)
 	IIC_Init(); //IIC初始化
 	//	MAX44009_WriteOneByte(0x05,0x55);
 //	 MAX44009_WriteOneByte(0x05, 0x55);
-//	MAX44009_WriteOneByte(MAX44009_REG_CFG, 0x03);					  // Default mode: measurements performed every 800ms
+	MAX44009_WriteOneByte(MAX44009_REG_CFG, 0x03);					  // Default mode: measurements performed every 800ms
 																  // Auto range: CDR and integration time are automatically determined by
 																  //             the internal autoranging circuitry of the IC
-//	MAX44009_WriteOneByte(MAX44009_REG_INTE, MAX44009_INT_DISABLE);//关闭中断
-//	MAX44009_WriteOneByte(MAX44009_REG_THT, MAX44009_IT_800ms);//积分时间800ms
-//	MAX44009_WriteOneByte(MAX44009_REG_THU, 0xff);
-//	MAX44009_WriteOneByte(MAX44009_REG_THL, 0x00);
+	MAX44009_WriteOneByte(MAX44009_REG_INTE, MAX44009_INT_DISABLE);//关闭中断
+	MAX44009_WriteOneByte(MAX44009_REG_THT, MAX44009_IT_800ms);//积分时间800ms
+	MAX44009_WriteOneByte(MAX44009_REG_THU, 0xff);
+	MAX44009_WriteOneByte(MAX44009_REG_THL, 0x00);
    	//	MAX44009_WriteOneByte(0x06,0x66);
 	//	MAX44009_WriteOneByte(0x07,0x77);
 	MAX44009_WriteOneByte(0x02,0x80);//连续转换、手动模式、积分时间6.25MS
@@ -69,33 +69,8 @@ float MAX44009_ReadLux(void)
 	u8 exponent=0, mantissa=0;
 	u8 High_Lux = 0, Low_Lux = 0;
 	float result=0;
-	IIC_Start();
-
-	IIC_Send_Byte(0x94);
-	IIC_Wait_Ack();
-
-	IIC_Send_Byte(0x03);
-
-	IIC_Start();
-	IIC_Send_Byte(0x95); //进入接收模式
-	IIC_Wait_Ack();
-
-	High_Lux = IIC_Read_Byte(0);
-
-	IIC_Start();
-
-	IIC_Send_Byte(0x04);
-	IIC_Wait_Ack();
-
-	IIC_Send_Byte(MAX44009_REG_LUXL);
-	IIC_Wait_Ack();
-
-	IIC_Start();
-	IIC_Send_Byte(0x95); //进入接收模式
-	IIC_Wait_Ack();
-	Low_Lux = IIC_Read_Byte(0);
-
-	IIC_Stop(); //产生一个停止条件
+	High_Lux=MAX44009_ReadOneByte(0x03);
+	Low_Lux=MAX44009_ReadOneByte(0x04);
 	
 	exponent = (High_Lux & 0xF0) >> 4;
 	mantissa = (High_Lux & 0x0F) << 4;

@@ -27,7 +27,7 @@ GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; 		 //推挽输出
  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;		 //IO口速度为50MHz
  GPIO_Init(GPIOB, &GPIO_InitStructure);					 //根据设定参数初始化GPIOC.15
- GPIO_SetBits(GPIOB,GPIO_Pin_3);						 //PC.15 输出高
+ GPIO_ResetBits(GPIOB,GPIO_Pin_3);						 //PC.15 输出高
 
 }
  

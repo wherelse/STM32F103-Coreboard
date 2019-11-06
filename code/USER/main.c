@@ -13,7 +13,6 @@ float voltage = 0;
 float lux;
 int main(void)
 {
-	float lux=0;
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); //设置中断优先级分组为组2：2位抢占优先级，2位响应优先级
 	delay_init();									//延时函数初始化
 	uart_init(115200);								//串口初始化为115200
@@ -33,7 +32,7 @@ int main(void)
 //	Beeptimes(1);
 	while (1)
 	{
-		voltage = Get_Adc_Average(2,50) / 4096.0 * 3.45 * 2;
+		voltage = Get_Adc_Average(0,50) / 4096.0 * 3.45 * 2;
 		lux=MAX44009_ReadLux();
 		usb_printf("lux=%f\n",lux);
 		delay_ms(1000);
@@ -62,7 +61,8 @@ __M_PAGE(UI_MENU,"Menu", PAGE_NULL,
 		 {
 			 SOLGUI_Cursor(6, 0, 9);
 			 SOLGUI_Widget_OptionText(0, "BAT:%fV",voltage);
-			 SOLGUI_Widget_OptionText(1, "lux:%f",lux);
+			 SOLGUI_Widget_OptionText(1, "luminance:");
+			 SOLGUI_Widget_OptionText(2, "%flux",lux);
 //			 SOLGUI_Widget_Spin(1, "ModeSelect:", INT8, 0, 1, &ControlMode_Flag);
 //			 SOLGUI_Widget_GotoPage(2, &DATA_EDIT);
 //			 SOLGUI_Widget_GotoPage(3, &CAN_IO);
