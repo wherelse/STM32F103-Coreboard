@@ -41,6 +41,8 @@
 "..\obj\pwm.o"
 "..\obj\adc.o"
 "..\obj\oled.o"
+"..\obj\max44009.o"
+"..\obj\myiic.o"
 "..\obj\usb_core.o"
 "..\obj\usb_init.o"
 "..\obj\usb_int.o"

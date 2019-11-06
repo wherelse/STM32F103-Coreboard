@@ -10,6 +10,7 @@ float Datatemp[SIZE];
 /*------------------------------------------------*/
 
 float voltage = 0;
+float lux;
 int main(void)
 {
 	float lux=0;
@@ -24,17 +25,18 @@ int main(void)
 	SOLGUI_Init(&UI_MENU);							//菜单显示框架初始化
 	SOLGUI_Refresh();								//OLED刷新
 	TIM2_Int_Init(9999, 720 - 1);					//100ms中断，屏幕更新，按键读取
+	MAX44009_Init();
 	USB_Port_Set(1);	//USB连接
  	Set_USBClock();   
  	USB_Interrupts_Config();    
  	USB_Init();	
-	Beeptimes(1);
+//	Beeptimes(1);
 	while (1)
 	{
-		delay_ms(1000);
-		LED1 = ~LED1;					 //程序是否运行灯
 		voltage = Get_Adc_Average(2,50) / 4096.0 * 3.45 * 2;
+		lux=MAX44009_ReadLux();
 		usb_printf("lux=%f\n",lux);
+		delay_ms(1000);
 	}
 }
 
@@ -60,6 +62,7 @@ __M_PAGE(UI_MENU,"Menu", PAGE_NULL,
 		 {
 			 SOLGUI_Cursor(6, 0, 9);
 			 SOLGUI_Widget_OptionText(0, "BAT:%fV",voltage);
+			 SOLGUI_Widget_OptionText(1, "lux:%f",lux);
 //			 SOLGUI_Widget_Spin(1, "ModeSelect:", INT8, 0, 1, &ControlMode_Flag);
 //			 SOLGUI_Widget_GotoPage(2, &DATA_EDIT);
 //			 SOLGUI_Widget_GotoPage(3, &CAN_IO);

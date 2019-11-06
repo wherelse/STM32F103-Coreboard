@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\CORE;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\SOLGUI\src;..\SOLGUI\src\Font;..\HARDWARE\BEEP;..\HARDWARE\EXTI;..\HARDWARE\KEY;..\HARDWARE\LED;..\HARDWARE\OLED;..\HARDWARE\STMFLASH;..\HARDWARE\TIMER;..\HARDWARE\WDG;..\USER;..\HARDWARE\PWM;..\HARDWARE\ADC;..\USB\CONFIG;..\USB\STM32_USB-FS-Device_Driver\inc</IncludePath>
+              <IncludePath>..\USER;..\CORE;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\SOLGUI\src;..\SOLGUI\src\Font;..\HARDWARE\BEEP;..\HARDWARE\EXTI;..\HARDWARE\KEY;..\HARDWARE\LED;..\HARDWARE\OLED;..\HARDWARE\STMFLASH;..\HARDWARE\TIMER;..\HARDWARE\WDG;..\USER;..\HARDWARE\PWM;..\HARDWARE\ADC;..\USB\CONFIG;..\USB\STM32_USB-FS-Device_Driver\inc;..\HARDWARE\IIC;..\HARDWARE\MAX44009</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -621,6 +621,16 @@
               <FileName>oled.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\OLED\oled.c</FilePath>
+            </File>
+            <File>
+              <FileName>MAX44009.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\MAX44009\MAX44009.c</FilePath>
+            </File>
+            <File>
+              <FileName>myiic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\IIC\myiic.c</FilePath>
             </File>
           </Files>
         </Group>

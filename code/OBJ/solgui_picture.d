@@ -62,6 +62,7 @@
 ..\obj\solgui_picture.o: ..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h
 ..\obj\solgui_picture.o: ..\USB\CONFIG\usb_pwr.h
 ..\obj\solgui_picture.o: ..\SOLGUI\src\SOLGUI_Include.h
+..\obj\solgui_picture.o: ..\HARDWARE\MAX44009\max44009.h
 ..\obj\solgui_picture.o: ..\SOLGUI\src\SOLGUI_Type.h
 ..\obj\solgui_picture.o: ..\SOLGUI\src\SOLGUI_Config.h
 ..\obj\solgui_picture.o: ..\SOLGUI\src\SOLGUI_Hardware.h

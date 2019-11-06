@@ -21,6 +21,7 @@
 #include "hw_config.h"
 #include "usb_pwr.h"
 #include "SOLGUI_Include.h"
+#include "max44009.h"
 #endif
 
 

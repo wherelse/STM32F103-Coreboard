@@ -72,3 +72,4 @@
 ..\obj\key.o: ..\SOLGUI\src\SOLGUI_GBasic.h
 ..\obj\key.o: ..\SOLGUI\src\SOLGUI_Picture.h
 ..\obj\key.o: ..\SOLGUI\src\SOLGUI_Widget.h
+..\obj\key.o: ..\HARDWARE\MAX44009\max44009.h

@@ -72,3 +72,4 @@
 ..\obj\beep.o: ..\SOLGUI\src\SOLGUI_GBasic.h
 ..\obj\beep.o: ..\SOLGUI\src\SOLGUI_Picture.h
 ..\obj\beep.o: ..\SOLGUI\src\SOLGUI_Widget.h
+..\obj\beep.o: ..\HARDWARE\MAX44009\max44009.h

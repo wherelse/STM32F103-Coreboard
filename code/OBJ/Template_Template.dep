@@ -1,6 +1,6 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x5DA5E35E)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (includeFile.h)(0x5DA5DDBF)
+F (.\main.c)(0x5DC2DD8C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -61,7 +61,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -72,7 +72,8 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (.\stm32f10x_it.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
+F (.\stm32f10x_it.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x5D67FB07)
 I (stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -103,7 +104,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (.\system_stm32f10x.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+F (.\system_stm32f10x.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
 I (stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -133,8 +134,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (.\control.c)(0x5DA5CCFE)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
-I (includeFile.h)(0x5DA5DDBF)
+F (.\control.c)(0x5DA5CCFE)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
+I (includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -195,7 +196,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -206,7 +207,8 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (..\SYSTEM\delay\delay.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
+F (..\SYSTEM\delay\delay.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
 I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -237,7 +239,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\SYSTEM\sys\sys.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+F (..\SYSTEM\sys\sys.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -267,7 +269,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\SYSTEM\usart\usart.c)(0x5D9B27F4)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+F (..\SYSTEM\usart\usart.c)(0x5D9B27F4)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -299,10 +301,10 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\SYSTEM\usart\usart.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-F (..\CORE\core_cm3.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+F (..\CORE\core_cm3.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 F (..\CORE\startup_stm32f10x_hd.s)(0x5D67FB06)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 527" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
-F (..\STM32F10x_FWLib\src\misc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -331,7 +333,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -360,7 +362,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -389,7 +391,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_can.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_can.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -418,7 +420,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_cec.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_cec.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -447,7 +449,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_crc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_crc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -476,7 +478,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -505,7 +507,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -534,7 +536,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -563,7 +565,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -592,7 +594,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -621,7 +623,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -650,7 +652,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -679,7 +681,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_i2c.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_i2c.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -708,7 +710,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_iwdg.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_iwdg.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -737,7 +739,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -766,7 +768,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -795,7 +797,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_rtc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_rtc.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -824,7 +826,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -853,7 +855,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -882,7 +884,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -911,7 +913,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -940,7 +942,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\STM32F10x_FWLib\src\stm32f10x_wwdg.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
+F (..\STM32F10x_FWLib\src\stm32f10x_wwdg.c)(0x5D67FB07)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -970,7 +972,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 F (..\README.TXT)(0x5D67FB07)()
-F (..\HARDWARE\BEEP\beep.c)(0x5DA5E146)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
+F (..\HARDWARE\BEEP\beep.c)(0x5DA5E146)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d)
 I (..\HARDWARE\BEEP\beep.h)(0x5DA5E2A9)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1001,7 +1003,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
 I (..\SYSTEM\usart\usart.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
@@ -1042,7 +1044,8 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (..\HARDWARE\EXTI\exti.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
+F (..\HARDWARE\EXTI\exti.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d)
 I (..\HARDWARE\EXTI\exti.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1073,7 +1076,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
 I (..\SYSTEM\usart\usart.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
@@ -1114,8 +1117,9 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (..\HARDWARE\KEY\key.c)(0x5DA5DF7E)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
+F (..\HARDWARE\KEY\key.c)(0x5DA5E417)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -1186,7 +1190,8 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (..\HARDWARE\LED\led.c)(0x5D8B7E59)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
+F (..\HARDWARE\LED\led.c)(0x5D8B7E59)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
 I (..\HARDWARE\LED\led.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1217,7 +1222,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\HARDWARE\STMFLASH\stmflash.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stmflash.o --omf_browse ..\obj\stmflash.crf --depend ..\obj\stmflash.d)
+F (..\HARDWARE\STMFLASH\stmflash.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\stmflash.o --omf_browse ..\obj\stmflash.crf --depend ..\obj\stmflash.d)
 I (..\HARDWARE\STMFLASH\stmflash.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1251,7 +1256,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
 I (..\SYSTEM\usart\usart.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-F (..\HARDWARE\TIMER\timer.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+F (..\HARDWARE\TIMER\timer.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
 I (..\HARDWARE\TIMER\timer.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1283,7 +1288,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\HARDWARE\LED\led.h)(0x5D67FB06)
-F (..\HARDWARE\WDG\wdg.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\wdg.o --omf_browse ..\obj\wdg.crf --depend ..\obj\wdg.d)
+F (..\HARDWARE\WDG\wdg.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\wdg.o --omf_browse ..\obj\wdg.crf --depend ..\obj\wdg.d)
 I (..\HARDWARE\WDG\wdg.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1314,7 +1319,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
-F (..\HARDWARE\PWM\pwm.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\pwm.o --omf_browse ..\obj\pwm.crf --depend ..\obj\pwm.d)
+F (..\HARDWARE\PWM\pwm.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\pwm.o --omf_browse ..\obj\pwm.crf --depend ..\obj\pwm.d)
 I (..\HARDWARE\PWM\pwm.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1348,7 +1353,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\HARDWARE\LED\led.h)(0x5D67FB06)
 I (..\SYSTEM\usart\usart.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
-F (..\HARDWARE\ADC\adc.c)(0x5D67FB06)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+F (..\HARDWARE\ADC\adc.c)(0x5DADBD51)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
 I (..\HARDWARE\ADC\adc.h)(0x5D67FB06)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1380,7 +1385,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
-F (..\HARDWARE\OLED\oled.c)(0x5DA5E22A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
+F (..\HARDWARE\OLED\oled.c)(0x5DA5E22A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
 I (..\HARDWARE\OLED\oled.h)(0x5DA5CE04)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -1414,7 +1419,72 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
 I (..\HARDWARE\OLED\oledfont.h)(0x5D8708A4)
 I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
-F (..\USB\STM32_USB-FS-Device_Driver\src\usb_core.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_core.o --omf_browse ..\obj\usb_core.crf --depend ..\obj\usb_core.d)
+F (..\HARDWARE\MAX44009\MAX44009.c)(0x5DC2DA44)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\max44009.o --omf_browse ..\obj\max44009.crf --depend ..\obj\max44009.d)
+I (..\HARDWARE\MAX44009\MAX44009.h)(0x5DC2D422)
+I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
+I (..\USER\stm32f10x.h)(0x5D67FB07)
+I (..\CORE\core_cm3.h)(0x5D67FB06)
+I (D:\Program Files\keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\USER\system_stm32f10x.h)(0x5D67FB07)
+I (..\USER\stm32f10x_conf.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
+I (..\HARDWARE\IIC\myiic.h)(0x5DC2DD71)
+I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
+F (..\HARDWARE\IIC\myiic.c)(0x5DC195E8)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\IIC\myiic.h)(0x5DC2DD71)
+I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
+I (..\USER\stm32f10x.h)(0x5D67FB07)
+I (..\CORE\core_cm3.h)(0x5D67FB06)
+I (D:\Program Files\keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\USER\system_stm32f10x.h)(0x5D67FB07)
+I (..\USER\stm32f10x_conf.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
+I (..\SYSTEM\delay\delay.h)(0x5D67FB07)
+F (..\USB\STM32_USB-FS-Device_Driver\src\usb_core.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_core.o --omf_browse ..\obj\usb_core.crf --depend ..\obj\usb_core.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1456,7 +1526,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
-F (..\USB\STM32_USB-FS-Device_Driver\src\usb_init.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_init.o --omf_browse ..\obj\usb_init.crf --depend ..\obj\usb_init.d)
+F (..\USB\STM32_USB-FS-Device_Driver\src\usb_init.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_init.o --omf_browse ..\obj\usb_init.crf --depend ..\obj\usb_init.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1498,7 +1568,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
-F (..\USB\STM32_USB-FS-Device_Driver\src\usb_int.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_int.o --omf_browse ..\obj\usb_int.crf --depend ..\obj\usb_int.d)
+F (..\USB\STM32_USB-FS-Device_Driver\src\usb_int.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_int.o --omf_browse ..\obj\usb_int.crf --depend ..\obj\usb_int.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1540,7 +1610,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
-F (..\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_mem.o --omf_browse ..\obj\usb_mem.crf --depend ..\obj\usb_mem.d)
+F (..\USB\STM32_USB-FS-Device_Driver\src\usb_mem.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_mem.o --omf_browse ..\obj\usb_mem.crf --depend ..\obj\usb_mem.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1582,7 +1652,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
-F (..\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_regs.o --omf_browse ..\obj\usb_regs.crf --depend ..\obj\usb_regs.d)
+F (..\USB\STM32_USB-FS-Device_Driver\src\usb_regs.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_regs.o --omf_browse ..\obj\usb_regs.crf --depend ..\obj\usb_regs.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1624,7 +1694,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
-F (..\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_sil.o --omf_browse ..\obj\usb_sil.crf --depend ..\obj\usb_sil.d)
+F (..\USB\STM32_USB-FS-Device_Driver\src\usb_sil.c)(0x58DE43EC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_sil.o --omf_browse ..\obj\usb_sil.crf --depend ..\obj\usb_sil.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1666,7 +1736,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_init.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
-F (..\USB\CONFIG\hw_config.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\hw_config.o --omf_browse ..\obj\hw_config.crf --depend ..\obj\hw_config.d)
+F (..\USB\CONFIG\hw_config.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\hw_config.o --omf_browse ..\obj\hw_config.crf --depend ..\obj\hw_config.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1716,7 +1786,7 @@ I (..\SYSTEM\usart\usart.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (D:\Program Files\keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
-F (..\USB\CONFIG\usb_desc.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_desc.o --omf_browse ..\obj\usb_desc.crf --depend ..\obj\usb_desc.d)
+F (..\USB\CONFIG\usb_desc.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_desc.o --omf_browse ..\obj\usb_desc.crf --depend ..\obj\usb_desc.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1759,7 +1829,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_desc.h)(0x58DE43E6)
-F (..\USB\CONFIG\usb_endp.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_endp.o --omf_browse ..\obj\usb_endp.crf --depend ..\obj\usb_endp.d)
+F (..\USB\CONFIG\usb_endp.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_endp.o --omf_browse ..\obj\usb_endp.crf --depend ..\obj\usb_endp.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1804,7 +1874,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_desc.h)(0x58DE43E6)
 I (..\USB\CONFIG\usb_istr.h)(0x58DE43E6)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
-F (..\USB\CONFIG\usb_istr.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_istr.o --omf_browse ..\obj\usb_istr.crf --depend ..\obj\usb_istr.d)
+F (..\USB\CONFIG\usb_istr.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_istr.o --omf_browse ..\obj\usb_istr.crf --depend ..\obj\usb_istr.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1849,7 +1919,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_prop.h)(0x58DE43E6)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
 I (..\USB\CONFIG\usb_istr.h)(0x58DE43E6)
-F (..\USB\CONFIG\usb_prop.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_prop.o --omf_browse ..\obj\usb_prop.crf --depend ..\obj\usb_prop.d)
+F (..\USB\CONFIG\usb_prop.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_prop.o --omf_browse ..\obj\usb_prop.crf --depend ..\obj\usb_prop.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1894,7 +1964,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_prop.h)(0x58DE43E6)
 I (..\USB\CONFIG\usb_desc.h)(0x58DE43E6)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
-F (..\USB\CONFIG\usb_pwr.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_pwr.o --omf_browse ..\obj\usb_pwr.crf --depend ..\obj\usb_pwr.d)
+F (..\USB\CONFIG\usb_pwr.c)(0x58DE43E6)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\usb_pwr.o --omf_browse ..\obj\usb_pwr.crf --depend ..\obj\usb_pwr.d)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_lib.h)(0x58DE43EC)
 I (..\USB\CONFIG\hw_config.h)(0x58DE43E6)
 I (..\USB\CONFIG\platform_config.h)(0x58DE43E6)
@@ -1937,9 +2007,9 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
-F (..\SOLGUI\src\SOLGUI_Common.c)(0x5CCADD72)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_common.o --omf_browse ..\obj\solgui_common.crf --depend ..\obj\solgui_common.d)
+F (..\SOLGUI\src\SOLGUI_Common.c)(0x5CCADD72)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_common.o --omf_browse ..\obj\solgui_common.crf --depend ..\obj\solgui_common.d)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -1999,6 +2069,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -2010,9 +2081,9 @@ I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
 I (D:\Program Files\keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\SOLGUI\src\SOLGUI_GBasic.c)(0x5A6844D7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_gbasic.o --omf_browse ..\obj\solgui_gbasic.crf --depend ..\obj\solgui_gbasic.d)
+F (..\SOLGUI\src\SOLGUI_GBasic.c)(0x5A6844D7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_gbasic.o --omf_browse ..\obj\solgui_gbasic.crf --depend ..\obj\solgui_gbasic.d)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -2072,6 +2143,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -2082,7 +2154,7 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (..\SOLGUI\src\SOLGUI_Hardware.c)(0x5CB6E7BC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_hardware.o --omf_browse ..\obj\solgui_hardware.crf --depend ..\obj\solgui_hardware.d)
+F (..\SOLGUI\src\SOLGUI_Hardware.c)(0x5CB6E7BC)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_hardware.o --omf_browse ..\obj\solgui_hardware.crf --depend ..\obj\solgui_hardware.d)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -2117,9 +2189,9 @@ I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
 I (..\HARDWARE\OLED\oled.h)(0x5DA5CE04)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (D:\Program Files\keil5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
-F (..\SOLGUI\src\SOLGUI_Menu.c)(0x5DA5E352)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_menu.o --omf_browse ..\obj\solgui_menu.crf --depend ..\obj\solgui_menu.d)
+F (..\SOLGUI\src\SOLGUI_Menu.c)(0x5DA5E352)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_menu.o --omf_browse ..\obj\solgui_menu.crf --depend ..\obj\solgui_menu.d)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -2179,6 +2251,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -2190,9 +2263,9 @@ I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
 I (D:\Program Files\keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\SOLGUI\src\SOLGUI_Picture.c)(0x5A6844D7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_picture.o --omf_browse ..\obj\solgui_picture.crf --depend ..\obj\solgui_picture.d)
+F (..\SOLGUI\src\SOLGUI_Picture.c)(0x5A6844D7)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_picture.o --omf_browse ..\obj\solgui_picture.crf --depend ..\obj\solgui_picture.d)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -2252,6 +2325,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -2262,9 +2336,9 @@ I (D:\Program Files\keil5\ARM\ARMCC\include\stdarg.h)(0x599ECD2A)
 I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
-F (..\SOLGUI\src\SOLGUI_Printf.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_printf.o --omf_browse ..\obj\solgui_printf.crf --depend ..\obj\solgui_printf.d)
+F (..\SOLGUI\src\SOLGUI_Printf.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_printf.o --omf_browse ..\obj\solgui_printf.crf --depend ..\obj\solgui_printf.d)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -2324,6 +2398,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -2338,9 +2413,9 @@ I (..\SOLGUI\src\Font\Font6x8_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\Font\Font4x6_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\Font\Font8x8_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\Font\Font8x10_ASCII.h)(0x5836E904)
-F (..\SOLGUI\src\SOLGUI_Widget.c)(0x5A69A885)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_widget.o --omf_browse ..\obj\solgui_widget.crf --depend ..\obj\solgui_widget.d)
+F (..\SOLGUI\src\SOLGUI_Widget.c)(0x5A69A885)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\solgui_widget.o --omf_browse ..\obj\solgui_widget.crf --depend ..\obj\solgui_widget.d)
 I (..\SOLGUI\src\SOLGUI_Include.h)(0x5CB7F284)
-I (..\USER\includeFile.h)(0x5DA5DDBF)
+I (..\USER\includeFile.h)(0x5DC2DC2C)
 I (..\SYSTEM\sys\sys.h)(0x5D67FB07)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
 I (..\CORE\core_cm3.h)(0x5D67FB06)
@@ -2400,6 +2475,7 @@ I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_sil.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_mem.h)(0x58DE43EC)
 I (..\USB\STM32_USB-FS-Device_Driver\inc\usb_int.h)(0x58DE43EC)
 I (..\USB\CONFIG\usb_pwr.h)(0x58DE43E6)
+I (..\HARDWARE\MAX44009\max44009.h)(0x5DC2D422)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\SOLGUI_Hardware.h)(0x5CB6E2D0)
@@ -2411,7 +2487,7 @@ I (..\SOLGUI\src\SOLGUI_GBasic.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Picture.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Widget.h)(0x5836E904)
 I (D:\Program Files\keil5\ARM\ARMCC\include\string.h)(0x599ECD2C)
-F (..\SOLGUI\src\Font\Font4x6_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font4x6_ascii.o --omf_browse ..\obj\font4x6_ascii.crf --depend ..\obj\font4x6_ascii.d)
+F (..\SOLGUI\src\Font\Font4x6_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font4x6_ascii.o --omf_browse ..\obj\font4x6_ascii.crf --depend ..\obj\font4x6_ascii.d)
 I (..\SOLGUI\src\Font\Font4x6_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -2444,7 +2520,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\Font\Font_Macro.h)(0x5836E904)
-F (..\SOLGUI\src\Font\Font6x8_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font6x8_ascii.o --omf_browse ..\obj\font6x8_ascii.crf --depend ..\obj\font6x8_ascii.d)
+F (..\SOLGUI\src\Font\Font6x8_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font6x8_ascii.o --omf_browse ..\obj\font6x8_ascii.crf --depend ..\obj\font6x8_ascii.d)
 I (..\SOLGUI\src\Font\Font6x8_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -2476,7 +2552,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\SOLGUI\src\Font\Font_Macro.h)(0x5836E904)
-F (..\SOLGUI\src\Font\Font8x8_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font8x8_ascii.o --omf_browse ..\obj\font8x8_ascii.crf --depend ..\obj\font8x8_ascii.d)
+F (..\SOLGUI\src\Font\Font8x8_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font8x8_ascii.o --omf_browse ..\obj\font8x8_ascii.crf --depend ..\obj\font8x8_ascii.d)
 I (..\SOLGUI\src\Font\Font8x8_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
@@ -2509,7 +2585,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x5D67FB07)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x5D67FB07)
 I (..\SOLGUI\src\SOLGUI_Config.h)(0x5A69987D)
 I (..\SOLGUI\src\Font\Font_Macro.h)(0x5836E904)
-F (..\SOLGUI\src\Font\Font8x10_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font8x10_ascii.o --omf_browse ..\obj\font8x10_ascii.crf --depend ..\obj\font8x10_ascii.d)
+F (..\SOLGUI\src\Font\Font8x10_ASCII.c)(0x5836E904)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\SOLGUI\src -I ..\SOLGUI\src\Font -I ..\HARDWARE\BEEP -I ..\HARDWARE\EXTI -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\OLED -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\TIMER -I ..\HARDWARE\WDG -I ..\USER -I ..\HARDWARE\PWM -I ..\HARDWARE\ADC -I ..\USB\CONFIG -I ..\USB\STM32_USB-FS-Device_Driver\inc -I ..\HARDWARE\IIC -I ..\HARDWARE\MAX44009-I.\RTE\_Template-I"D:\Program Files\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\keil5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o ..\obj\font8x10_ascii.o --omf_browse ..\obj\font8x10_ascii.crf --depend ..\obj\font8x10_ascii.d)
 I (..\SOLGUI\src\Font\Font8x10_ASCII.h)(0x5836E904)
 I (..\SOLGUI\src\SOLGUI_Type.h)(0x5CB6E298)
 I (..\USER\stm32f10x.h)(0x5D67FB07)
