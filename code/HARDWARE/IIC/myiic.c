@@ -1,17 +1,5 @@
 #include "myiic.h"
 #include "delay.h"
-//////////////////////////////////////////////////////////////////////////////////	 
-//本程序只供学习使用，未经作者许可，不得用于其它任何用途
-//ALIENTEK STM32F407开发板
-//IIC 驱动代码	   
-//正点原子@ALIENTEK
-//技术论坛:www.openedv.com
-//创建日期:2014/5/6
-//版本：V1.0
-//版权所有，盗版必究。
-//Copyright(C) 广州市星翼电子科技有限公司 2014-2024
-//All rights reserved									  
-////////////////////////////////////////////////////////////////////////////////// 	
 
 //初始化IIC
 void IIC_Init(void)
@@ -36,18 +24,7 @@ void IIC_Start(void)
 	delay_us(4);
 	IIC_SCL=0;//钳住I2C总线，准备发送或接收数据 
 }	  
-////产生IIC停止信号
-//void IIC_Stop(void)
-//{
-//	SDA_OUT();//sda线输出
-//	IIC_SCL=0;
-//	IIC_SDA=0;//STOP:when CLK is high DATA change form low to high
-// 	delay_us(4);
-//	IIC_SCL=1; 
-//	IIC_SDA=1;//发送I2C总线结束信号
-//	delay_us(4);							   	
-//}
-//产生IIC停止信号
+
 void IIC_Stop(void)
 {
 	SDA_OUT();//sda线输出

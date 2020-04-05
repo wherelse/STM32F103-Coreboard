@@ -15,8 +15,8 @@
 #define MAX44009_ADDR_V ((uint8_t)0x4B) // A0 pin tied to VCC //0100 1011
 
 // Current I2C device address (depends on the pin A0 connection)
-//#define MAX44009_ADDR (MAX44009_ADDR_G << 1)
-#define MAX44009_ADDR (0x94)
+#define MAX44009_ADDR (MAX44009_ADDR_G << 1)
+// #define MAX44009_ADDR (0x94)
 // MAX44009 register definitions
 #define MAX44009_REG_INTS ((uint8_t)0x00) // Interrupt status
 #define MAX44009_REG_INTE ((uint8_t)0x01) // Interrupt enable
@@ -62,7 +62,7 @@
 #define MAX44009_OVERRANGE ((uint32_t)1000000000U)
 
 
-void MAX44009_Init(void);//³õÊ¼»¯
+void MAX44009_Init(void);
 u8 MAX44009_ReadOneByte(u8 ReadAddr);
 
 void MAX44009_WriteOneByte(u8 WriteAddr,u8 DataToWrite);

@@ -1,22 +1,10 @@
 #ifndef __MYIIC_H
 #define __MYIIC_H
 #include "sys.h" 
-//////////////////////////////////////////////////////////////////////////////////	 
-//本程序只供学习使用，未经作者许可，不得用于其它任何用途
-//ALIENTEK STM32F407开发板
-//IIC 驱动代码	   
-//正点原子@ALIENTEK
-//技术论坛:www.openedv.com
-//创建日期:2014/5/6
-//版本：V1.0
-//版权所有，盗版必究。
-//Copyright(C) 广州市星翼电子科技有限公司 2014-2024
-//All rights reserved									  
-////////////////////////////////////////////////////////////////////////////////// 	
    	   		   
 //IO方向设置
-#define SDA_IN()  {GPIOB->CRH &= 0xFFFF0FFF;GPIOB->CRH |= 0x00008000;}	//PB0输入模式
-#define SDA_OUT() {GPIOB->CRH &= 0xFFFF0FFF;GPIOB->CRH |= 0x00003000;} //PB0输出模式
+#define SDA_IN()  {GPIOB->CRH &= 0xFFFF0FFF;GPIOB->CRH |= 0x00008000;}	//PB11输入模式
+#define SDA_OUT() {GPIOB->CRH &= 0xFFFF0FFF;GPIOB->CRH |= 0x00003000;} //PB11输出模式
 //IO操作函数	 
 #define IIC_SCL    PBout(10) //SCL
 #define IIC_SDA    PBout(11) //SDA	 
